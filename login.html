@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<title>
+Login
+</title>
+</head>
+<body>
+<div class="loginbox">
+<img src="log.png" class="log">
+<h1>USER LOGIN</h1>
+<form>
+<p>USERNAME</p>
+<input type="text" id="username" name="username" placeholder="Enter User Name">
+<p>PASSWORD</p>
+<input type="password" name="" placeholder="Enter Password" id="password">
+<input type="submit" name="" value="LOGIN" onclick="login()">
+
+
+<script>
+function login()
+{
+var a=document.getElementById('username').value
+var b=document.getElementById('password').value
+if(a==""||b=="")
+{
+alert("!! Please fill the details !!");
+}
+else
+if(a=="user" && b=="user123")
+{
+window.open("web.html");
+}
+
+else
+{
+alert("Wrong user name / Password");
+}
+
+}
+</script>
+</body>

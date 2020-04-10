@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-header{
+    background: #7B68EE;
+    color: azure;
+    padding: 8px 0;    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.site-info{
+    float: left;
+}
+.site-contact{
+    float: right;
+}
+.middle-header{
+    margin:0;
+    padding:0;
+    background:url(upperbody.jpg);
+    background-size:cover;
+    background-position:center;
+    background-family:sans-serif;
+    padding: 10px 0;
+}
+.site-name a{
+    text-decoration: none;
+    color: #333333;
+}
+.site-name a span.web{
+    color: #7B68EE;
+}
+.site-nav{
+    float: right;
+}
+.site-nav ul{
+    display: flex;
+}
+.site-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.site-nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.site-nav ul li.active a{
+    color: white;
+}
+.site-nav ul li a:hover{
+    color: #7B68EE;
+}
+.box-project{
+    width: 1170px;
+    position: absolute;
+    margin: 0 auto;
+    left: 120px;
+    right: 30px;
+    bottom: 0px;
+}
+.box-info{
+    background: #F8F8F8;
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    padding: 5x 5px;
+}
+.tittle-cate{
+    color: #7B68EE;
+    border-bottom: 2px solid #7B68EE;
+    padding: 10px 10px;
+}
+.tittle-cate h2{
+    font-size: 20px;
+}
+.description-cate{
+    padding: 20px 20px 20px 20px;
+}
+.content{
+    padding-top: 300px;
+    padding-left: 470px;
+    padding-right: 200px;
+}
+.content2{
+    padding-top: 10px;
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner{
+    align-content: center;
+}
+
+.title-h2{
+    margin-left: 15%;
+}
+
+.back{
+    margin-left: 22%;
+    margin-top: 10px;
+}
+
+body
+{
+margin:0;
+padding:0;
+background:url(webbody.jpg);
+background-size:cover;
+background-position:center;
+background-family:sans-serif;
+}
